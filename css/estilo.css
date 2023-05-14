@@ -230,7 +230,7 @@ body {
 }
 
 .contacto {
-    height: 500px;
+    height: 700px;
     background-color: white;
 }
 
@@ -238,6 +238,80 @@ body {
     text-align: center;
     color: #F1C40F;
     padding: 20px 0;
+}
+
+.formulario {
+    margin-top: -80px;
+    padding: 80px 80px;
+}
+
+.formulario label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formulario input {
+    outline: none; 
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid chartreuse;
+}
+
+.formulario textarea {
+    outline: none; 
+    display: block;
+    margin-top: 20px;
+    width: 40%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 2px solid chartreuse;
+}
+
+.formulario input:focus{
+	outline:0;
+	border: 2px solid #F1C40F;
+}
+
+.formulario textarea:focus {
+    outline:0;
+	border: 2px solid #F1C40F;
+}
+
+::-webkit-input-placeholder {
+    color: #2C3E50;
+}
+
+.enviar {
+    outline: none;
+    color: #EEF1F5;
+    background-color: #198754;
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid #198754;
+    font-size: 25px;
+}
+
+.obligatorio {
+    color: #E74C3C;
+}
+
+.contacto_medios {
+    margin-top: -50px;
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.contacto_medios a{
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
 }
 
 .footer {
