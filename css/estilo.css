@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: 20px;
+}
+
+.brand span{
+    color: chartreuse;
+}
+
+.menu {
+    display: flex ;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.menu a:hover {
+    color: chartreuse;
+}
+
+.menu .active {
+    color: chartreuse;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.text {
+    font-size: 40px;
+    color: #F1C40F;
+    margin: 30px 0 10px 0;
+}
+
+.span1 {
+    color: chartreuse;
+}
+
+.text1 {
+    font-size: 60px;
+}
+
+.text2 {
+    font-size: 19px;
+}
+
+.socialmedia a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    color: #EEF1F5;
+    margin: 10px 20px 20px 0;
+}
+
+.socialmedia a:hover {
+    color: chartreuse;
+}
+
+.foto {
+    width: 500px;
+    height: 600px;
+    margin-left: 120px;
+}
+
+.sobre {
+    height: 620px;
+    background-color: #EEF1F5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ilustracion1 {
+    width: 700px;
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.text4 {
+    font-size: 60px;
+    margin-top: 35px;
+}
+
+.span2 {
+    color: #F1C40F;
+}
+
+.text5 {    
+    margin-top: 30px;
+    font-size: 18px;
+    width: 93%;
+}
+
+.divider {
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.divider i:hover {
+    transform: scale(1.1);
+}
+
+.divider h2 { 
+    font-size: 15px;
+}
+
+.divider li {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.divider1 {
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.divider1 i:hover {
+    transform: scale(1.1);
+}
+
+.divider1 h2 { 
+    font-size: 15px;
+}
+
+.divider1 li {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.portafolio {
+    height: 600px;
+    background-color: #191c32;
+}
+
+.text6 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.span3 {
+    color: #F1C40F;
+}
+
+.proyectos {
+    width: 946px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.proyectos li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px;
+    margin-top: -40px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: #F1C40F 2px solid;
+    border-radius: 10px;
+}
+
+.proyectos a:hover {
+    color: #F1C40F;
+    font-size: 50px;
+}
+
+.proyectos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 180px;
+}
+
+.descripcion {
+    margin-bottom: 60px;
+}
+
+.global {
+    color: #EEF1F5;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.contacto {
+    height: 500px;
+    background-color: white;
+}
+
+.text7 {
+    text-align: center;
+    color: #F1C40F;
+    padding: 20px 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #191c32;
+    padding: 1px;
+}
+
+.titulo_footer {
+    width: 500px;
+    border-bottom: white 2px solid;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.pie {
+    color: white;
+    font-size: 35px;
+}
+
+.span4 {
+    color: chartreuse;
+}
+
+.socialmedia_footer {
+    font-size: 15px;
+}
+
+.socialmedia_footer a{
+    display: inline-block;
+    color: white;
+    margin: 30px 20px 10px 15px;
+}
+
+.socialmedia_footer a:hover {
+    color: chartreuse;
+}
+
+.copyright {
+    font-size: 15px;
+    color: white;
+}
+
