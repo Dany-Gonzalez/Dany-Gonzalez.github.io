@@ -217,8 +217,18 @@ body {
     margin-bottom: 180px;
 }
 
+.ima_portafolio {
+    margin-top: -170px;
+    width: 200px;
+    height: 200px;
+}
+
 .descripcion {
     margin-bottom: 60px;
+}
+
+.iconos {
+    margin-top: -20px;
 }
 
 .global {
