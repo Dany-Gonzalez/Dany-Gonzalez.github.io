@@ -27,9 +27,9 @@ body {
 }
 
 .logo img {
-    margin: -20px -25px;
-    width: 150px;
-    height: 150px;
+    margin: 10px -60px;
+    width: 300px;
+    height: 80px;
 }
 
 .menu {
@@ -95,6 +95,10 @@ body {
 
 .socialmedia a:hover {
     color: chartreuse;
+}
+
+.socialmedia i:hover {
+    transform: translateY(-5px);
 }
 
 .foto {
@@ -357,13 +361,13 @@ body {
 
 .logo_footer img {
     margin-top: 15px;
-    width: 500px;
+    width: 400px;
     height: 100px;
     border-bottom: 2px solid #fff;
 }
 
 .socialmedia_footer {
-    margin-top: -5px;
+    margin-top: -8px;
     font-size: 15px;
 }
 
@@ -375,6 +379,10 @@ body {
 
 .socialmedia_footer a:hover {
     color: chartreuse;
+}
+
+.socialmedia_footer i:hover {
+    transform: translateY(-7px);
 }
 
 .copyright {
